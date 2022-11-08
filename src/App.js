@@ -1,20 +1,21 @@
 import React from 'react'
-import Overview from './design-system/components/Overview'
-import overviewData from './design-system/Data'
+import CreativeSpeakers from './design-system/components/CreativeSpeakers/CreativeSpeakers'
+import speakerData from './design-system/components/CreativeSpeakers/Data'
 
 function App() {
-  const overviewDataList = overviewData.map((item) => {
+  const speakerDataList = speakerData.map((item) => {
     return (
-      <Overview
-        icon={item.icon}
-        title={item.title}
+      <CreativeSpeakers
+        img={item.img}
+        alt={item.alt}
+        name={item.name}
+        job={item.job}
         key={item.id}
-        description={item.Description}
       />
     )
   })
 
-  return <div style={{ display: 'flex' }}>{overviewDataList}</div>
+  return <div style={{ display: 'flex' }}>{speakerDataList}</div>
 }
 
 export default App
