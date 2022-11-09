@@ -1,21 +1,25 @@
 import React from 'react'
-import CreativeSpeakers from './design-system/components/CreativeSpeakers/CreativeSpeakers'
-import speakerData from './design-system/components/CreativeSpeakers/Data'
+import OurPrograms from './design-system/components/OurPrograms'
+import ourProgramsData from './design-system/components/OurPrograms/Data'
 import './design-system/main.css'
+
 function App() {
-  const speakerDataList = speakerData.map((item) => {
+  const ourProgramsDataList = ourProgramsData.map((item) => {
     return (
-      <CreativeSpeakers
+      <OurPrograms
         img={item.img}
         alt={item.alt}
-        name={item.name}
-        job={item.job}
+        title={item.title}
+        description={item.description}
+        roomNumber={item.roomNumber}
+        time={item.time}
         key={item.id}
+        name={item.name}
       />
     )
   })
 
-  return <div style={{ display: 'flex' }}>{speakerDataList}</div>
+  return <div>{ourProgramsDataList}</div>
 }
 
 export default App
