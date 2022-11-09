@@ -1,25 +1,17 @@
 import React from 'react'
-import OurPrograms from './design-system/components/OurPrograms'
-import ourProgramsData from './design-system/components/OurPrograms/Data'
+import ourSponsorData from './design-system/components/OurSponsors/Data'
+import { OurSponsors } from './design-system/components/OurSponsors/OurSponsors'
+
 import './design-system/main.css'
 
 function App() {
-  const ourProgramsDataList = ourProgramsData.map((item) => {
-    return (
-      <OurPrograms
-        img={item.img}
-        alt={item.alt}
-        title={item.title}
-        description={item.description}
-        roomNumber={item.roomNumber}
-        time={item.time}
-        key={item.id}
-        name={item.name}
-      />
-    )
+  const ourSponsorDataList = ourSponsorData.map((item) => {
+    return <OurSponsors alt={item.alt} src={item.img} key={item.id} />
   })
 
-  return <div>{ourProgramsDataList}</div>
+  return (
+    <div style={{ display: 'flex', gap: '1rem' }}>{ourSponsorDataList}</div>
+  )
 }
 
 export default App
