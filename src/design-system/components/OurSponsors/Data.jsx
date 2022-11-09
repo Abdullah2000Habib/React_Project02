@@ -1,7 +1,7 @@
-import img from '../../../shared/assests/OurPrograms/sponsor-img1.jpg'
-import img1 from '../../../shared/assests/OurPrograms/sponsor-img2.jpg'
-import img2 from '../../../shared/assests/OurPrograms/sponsor-img3.jpg'
-import img3 from '../../../shared/assests/OurPrograms/sponsor-img4.jpg'
+import img from 'images/OurSponsors/sponsor-img1.jpg'
+import img1 from 'images/OurSponsors/sponsor-img2.jpg'
+import img2 from 'images/OurSponsors/sponsor-img3.jpg'
+import img3 from 'images/OurSponsors/sponsor-img4.jpg'
 
 const ourSponsorData = [
   {
