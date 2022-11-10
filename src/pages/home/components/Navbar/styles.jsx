@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 import theme from "../../../../design-system/config";
-
 export const NavbarWrapper = styled("section")`
     label: NavbarWrapper;
     padding: 1.5rem 0 ;
@@ -25,12 +25,19 @@ export const Event = styled("span")`
     color: ${theme.primary};
     
 `;
-export const Link = styled("a")`
-    label: Link;
-    font-size: 1rem;
-    color: ${theme.white};
-    text-decoration: none;
-`;
+
+// export const Link = styled("a")`
+//     label: Link;
+//     font-size: 1rem;
+//     color: ${theme.white};
+//     text-decoration: none;
+
+//     &:hover {
+
+
+//         text-decoration: none;
+//     }
+// `;
 
 export const LinkWrapper = styled("div")`
     label: LinkWrapper;
@@ -43,4 +50,19 @@ export const LinkWrapper = styled("div")`
     
     
     
+`;
+
+export const Links = styled(Link)`
+    label: Link;
+    font-size: 1rem;
+    color: ${theme.white};
+    text-decoration: none;
+
+    
+    &:hover {
+
+
+        text-decoration: none;
+       color:${theme.active} !important; 
+    }
 `;

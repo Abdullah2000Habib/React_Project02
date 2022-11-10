@@ -1,4 +1,7 @@
-const links = [ 
+export default function  links(){
+        
+        
+        return ( [ 
         
         {
                 navLink:"/",
@@ -8,47 +11,46 @@ const links = [
 
         },
         {
-                navLink:"/",
+                navLink:"/overview",
                 navText:"Overview",
 
 
 
         },
         {
-                navLink:"/",
+                navLink:"/speakers",
                 navText:"Speakers",
 
 
 
         },
         {
-                navLink:"/",
+                navLink:"/programs",
                 navText:"Programs",
 
 
 
         },
         {
-                navLink:"/",
+                navLink:"/venue",
                 navText:"Venue",
 
 
 
         },
         {
-                navLink:"/",
+                navLink:"/sponsors",
                 navText:"Sponsors",
 
 
 
         },
         {
-                navLink:"/",
+                navLink:"/contact",
                 navText:"Contact",
 
 
 
         }
-]
+])}
 
-export default links

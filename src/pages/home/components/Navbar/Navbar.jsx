@@ -1,6 +1,5 @@
 import React from "react";
-import links from "./Links";
-import NavLinks from "./NavLinks";
+import NavItems from "./NavItems";
 import { Event, LinkWrapper, NavbarWrapper, NavContainer, NavTitle } from "./styles";
 
 export default function Navbar() {
@@ -14,12 +13,7 @@ export default function Navbar() {
 
                     <LinkWrapper>
 
-                        {
-                            links.map((link,index)=>{
-
-                                return <NavLinks navLink={link.navLink} navText={link.navText} key={index}></NavLinks>
-                            })
-                        }
+                       <NavItems/>
 
 
 
