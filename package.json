@@ -25,6 +25,7 @@
     "web-vitals": "^3.0.4"
   },
   "scripts": {
+    "update": "npx npm-check-updates",
     "postinstall": "link-module-alias",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
