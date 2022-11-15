@@ -2,7 +2,8 @@ const theme = {
 primary:"#f2545f",
     secondary:"#090707",
     gray:"#707070",
-    white:"#fff",
+    white:"#ffffff",
+    black:"#222222",
     active: "#66ccff",
 }
 

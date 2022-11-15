@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Description, OverviewWrapper, Title } from './Styles.jsx'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Description, OverviewWrapper, Title } from './Styles.jsx';
 
-export default function Overview({ icon, title, description }) {
+export default function OverViewComponent({ icon, title, description }) {
   return (
     <OverviewWrapper>
       <div>

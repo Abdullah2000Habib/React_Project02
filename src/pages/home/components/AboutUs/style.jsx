@@ -5,7 +5,7 @@ export const AboutUsWrapper =styled("section")`
 label:AboutUsWrapper;
 gap:2rem;
 display: flex;
-padding: 3rem  0;
+padding: 5rem  0;
 align-items: flex-start;
 `
 
