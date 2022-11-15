@@ -6,7 +6,7 @@ import theme from "../../../../design-system/config";
 
 export const HeaderWrapper =styled("section")`
 label:HeaderWrapper;
-height: 100vh;
+height: 800px;
 background: url(${Header}) fixed;
 background-size: cover;
 background-repeat: no-repeat;
