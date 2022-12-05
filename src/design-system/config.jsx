@@ -5,6 +5,7 @@ primary:"#f2545f",
     white:"#ffffff",
     black:"#222222",
     active: "#66ccff",
+    whiteSmoke: "#f5f5f5",
 }
 
 export default theme
