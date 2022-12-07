@@ -32,6 +32,13 @@ export default function  links(){
 
         },
         {
+                navLink:"/Register",
+                navText:"Register",
+
+
+
+        },
+        {
                 navLink:"/venue",
                 navText:"Venue",
 
