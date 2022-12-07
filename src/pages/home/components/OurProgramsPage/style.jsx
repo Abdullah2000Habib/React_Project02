@@ -43,22 +43,31 @@ label:TabsWrapper;
 padding-top: 1rem;
 
 
+
 `
 export const Wrapper =styled("div")`
 
 label:Wrapper;
 display: flex;
 gap:2rem;
+position: relative;
+top: 4px;
+
 
 
 
 
 `
-export const Span =styled("div")`
+export const Span =styled("span")`
 
 label:Span;
 font-weight: bold;
 cursor: pointer;
+padding: 2rem 0 ;
+
+
+
+
 
 
 
@@ -68,9 +77,9 @@ export const Line =styled("div")`
 
 label:Line;
 width: 100%;
-height: 1px;
-margin:2rem 0 ;
+height: 4px;
 background: ${theme.black};
+margin-bottom: 2rem ;
 
 
 

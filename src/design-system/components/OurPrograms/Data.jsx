@@ -11,7 +11,9 @@ import img7 from '../../../shared/assests/OurPrograms/thirdday-2.jpg';
 import img8 from '../../../shared/assests/OurPrograms/thirdday-3.jpg';
 
 
-const ourProgramsData = [
+
+export const tab1 = [
+
   {
     id: 1,
     time: '09:00 AM',
@@ -20,6 +22,9 @@ const ourProgramsData = [
     img: img,
     alt: 'img1',
     title: 'introduction to the design',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+    
   },
   {
     id: 2,
@@ -29,6 +34,8 @@ const ourProgramsData = [
     img: img1,
     alt: 'img2',
     title: 'introduction to the design',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
   {
     id: 3,
@@ -38,9 +45,18 @@ const ourProgramsData = [
     img: img2,
     alt: 'img3',
     title: 'introduction to the design',
-  },
-  // ------------------------------
-    {
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+  }
+
+
+] 
+
+
+
+export const tab2 = [
+
+   {
     id: 4,
     time: '09:00 AM',
     roomNumber: 240,
@@ -48,6 +64,8 @@ const ourProgramsData = [
     img: img3,
     alt: 'img4',
     title: 'introduction to the design',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
   {
     id: 5,
@@ -57,6 +75,8 @@ const ourProgramsData = [
     img: img4,
     alt: 'img5',
     title: 'introduction to the design',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
   {
     id: 6,
@@ -66,9 +86,16 @@ const ourProgramsData = [
     img: img5,
     alt: 'img6',
     title: 'introduction to the design',
-  },
-  // --------------------------------------
-    {
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+  }
+] 
+
+ 
+
+export  const tab3 = [
+
+  {
     id: 7,
     time: '09:00 AM',
     roomNumber: 240,
@@ -76,6 +103,8 @@ const ourProgramsData = [
     img: img6,
     alt: 'img7',
     title: 'introduction to the design',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
   {
     id: 8,
@@ -85,6 +114,8 @@ const ourProgramsData = [
     img: img7,
     alt: 'img8',
     title: 'introduction to the design',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
   {
     id: 9,
@@ -94,7 +125,8 @@ const ourProgramsData = [
     img: img8,
     alt: 'img9',
     title: 'introduction to the design',
-  },
-]
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+  }
+] 
 
-export default ourProgramsData
