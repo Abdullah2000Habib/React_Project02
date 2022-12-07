@@ -76,9 +76,9 @@ padding: 0.6rem;
 border-radius: 5px;
 border: 2px solid ${theme.white};
 background-color: transparent;
+color: ${theme.white};
 ::placeholder {
     font-size: 1rem;
-    color: ${theme.white}
 }
 
 
