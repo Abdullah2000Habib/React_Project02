@@ -4,13 +4,32 @@ body {
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-    height: 5555px;
+
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 .container {
 
     width: 1170px;
     margin: 0 auto;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 15px;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: #f2545f;
+    border-radius: 10px;
+    height: 150px;
 
 }
